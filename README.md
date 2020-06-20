@@ -91,10 +91,14 @@ should give the following output:
 ```
 mtd3-dump: u-boot legacy uImage, linkn Kernel Image, Linux/MIPS, OS Kernel Image (lzma), 2204781 bytes, Fri Apr  9 14:07:31 2010, Load Address: 0x80000000, Entry Point: 0x80366000, Header CRC: 0x9FDFE333, Data CRC: 0xA9241625
 ```
+
+
 ## Install dd-wrt
-Find your firmware here: 
+Find your firmware [here](https://forum.dd-wrt.com/phpBB2/viewtopic.php?p=324454#324454)
+Put the file in the root directory of your tftp server (I used MobaXTerm for Windows). Name it firmware.bin for simplicity.
 
 You will not be able to run the dd-wrt firmware without flashing due to the fact that dd-wrt wants to mount their rootfs and it needs to be on flash.
+
 
 Here is the expected output:
   <details>
@@ -563,8 +567,15 @@ Default credentials:
 * Username: root
 * Password: admin
 
-
-
-
-# Credits
+### Credits
 Thank you to the fine folks here: https://forum.dd-wrt.com/phpBB2/viewtopic.php?t=70848
+
+
+
+
+## Install OpenWrt
+
+Find your firmware [here](https://openwrt.org/toh/views/toh_fwdownload?dataflt%5BCPU*%7E%5D=3052f)
+I chose [this one](http://downloads.openwrt.org/releases/19.07.3/targets/ramips/rt305x/openwrt-19.07.3-ramips-rt305x-hw550-3g-initramfs-kernel.bin) for the Aztech HW550-3G
+
+The procedure will be the same as with dd-wrt, using the tftp server and the serial console.
