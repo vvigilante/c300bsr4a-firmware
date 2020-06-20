@@ -1,9 +1,6 @@
 # C300BSR4A v2
-Original firmware dump and installation of dd-wrt on this wireless access point by Conceptronic.
+Original firmware dump and installation of DD-Wrt and OpenWrt on this wireless access point by Conceptronic.
 You will need some linux. I used Ubuntu 18.04 on WSL.
-
-Get your firmware [here](https://forum.dd-wrt.com/phpBB2/viewtopic.php?p=324454#324454)
-You need to be registered to see it.
 
 ## Connect serial
 Needs soldering on the board. There are two round spots on the back of the board for rx and tx.
