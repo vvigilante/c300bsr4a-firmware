@@ -571,8 +571,9 @@ Thank you to the fine folks here: https://forum.dd-wrt.com/phpBB2/viewtopic.php?
 
 
 ## Install OpenWrt
-The procedure will be the same as with dd-wrt, using the tftp server and the serial console.
-You will need to flash the image marked squashfs-tftp that you find on this repository. I custom-built it from [openwrt repo](https://git.openwrt.org/openwrt/openwrt.git), branch *openwrt-19.07* with the *c300.config* you find on this repo.
+The procedure will be the same as with dd-wrt, using the tftp server and the serial console. You will need to flash the image marked squashfs-tftp that you find on this repository.
+
+I custom-built it from [openwrt repo](https://git.openwrt.org/openwrt/openwrt.git), branch *openwrt-19.07* with the *c300.config* you find on this repo.
 I needed to remove something otherwise there would be no space on the flash for the overlay (i.e. no space for persistent settings, which sucks). Among the stuff I removed ppp, usb, mkswap, awk. You may want to re-insert awk, I noticed that it is needed for something, but I guess it is not crucial.
 
 If you get a message like [jffs2: Too few erase blocks (1)](https://www.olimex.com/forum/index.php?topic=4527.0) it means that the image is too large.
