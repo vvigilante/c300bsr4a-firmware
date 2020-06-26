@@ -1,4 +1,4 @@
-# C300BSR4A v2
+# C300BSR4A v2 firmware backup, DD-Wrt, OpenWrt
 Original firmware dump and installation of DD-Wrt and OpenWrt on this wireless access point by Conceptronic.
 
 You will need some linux. I used Ubuntu 18.04 on WSL.
