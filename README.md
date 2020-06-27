@@ -1,12 +1,14 @@
 # C300BSR4A v2 firmware backup, DD-Wrt, OpenWrt
 Original firmware dump and installation of DD-Wrt and OpenWrt on this wireless access point by Conceptronic.
 
+![Image of the main board, detail of the sock](soc.jpg)
+
 You will need some linux. I used Ubuntu 18.04 on WSL.
 
 ## Connect serial
 Needs soldering on the board. There are two round spots on the back of the board for rx and tx.
-You find the image here:
-https://forum.dd-wrt.com/phpBB2/viewtopic.php?t=70848
+Take the ground wherever you wish
+![soldering points for serial](back.jpg)
 
 The parameters are:
 57600.8, N, 1
